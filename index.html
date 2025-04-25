@@ -2,8 +2,28 @@
 <html>
     <head>
         <title>spibble site</title>
+        <style>
+            :root {
+              color-scheme: light dark;
+            }
+            
+            @media (prefers-color-scheme: light) {
+              .element {
+                color: black;
+                background-color: white;
+              }
+            }
+            
+            @media (prefers-color-scheme: dark) {
+              .element {
+                color: white;
+                background-color: black;
+              }
+            }
+        </style>
     </head>
     <body>
-        <p>spibble site</p>
+        <h1>spibble site</h1>
+        <p>cool. and awesome website</p>
     </body>
 </html>
