@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Grandstander:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    color-scheme: light dark;
+    font-family: 'Grandstander', sans-serif;
+    font-weight: 300;
+}
+
+body {
+    max-width: 75ch;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 1.3rem;
+    line-height: calc(1.3rem * 1.42);
+}
+
+h1, h2, h3, b {
+    font-weight: 700;
+}
+
+
+h1 {
+    font-size: 0;
+    margin-top: calc(1rem + 1.2rem);
+}
+h1 span, h1 a {
+    font-size: 3rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    list-style-type: none;
+    text-align: center;
+    overflow: hidden;
+
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 0;
+}
+
+/* light mode */
+@media (prefers-color-scheme: light) {
+    .element, .color-0 {
+        color: black;
+        background-color: rgba(0, 0, 0, 0);;
+    }
+
+    h2, h3, .color-1 {
+        color: #81639f;
+    }
+
+    a, .color-2 {
+        color: #fe3e67;
+    }
+}
+
+/* dark mode */
+@media (prefers-color-scheme: dark) {
+    .element, .color-0 {
+        color: white;
+        background-color: rgba(0, 0, 0, 0);
+    }
+
+    h2, h3, .color-1 {
+        color: #fce988;
+    }
+
+    a, .color-2 {
+        color: #a0bf8b;
+    }
+}
