@@ -6,6 +6,60 @@
     font-weight: 300;
 }
 
+h1, h2, h3, b {
+    font-weight: 700;
+}
+
+/* Header (icon, title, etc.) */
+header div, h1 {
+    display: inline-block;
+}
+
+h1 {
+    font-size: 0;
+    padding-top: calc(1rem + 1.2rem);
+}
+
+h1 span, h1 a {
+    font-size: 3rem;
+}
+
+.icon {
+    max-height: 3rem;
+}
+
+/* Cool tooltippies */
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+    /* the tooltippy */
+.tooltip .tooltip-text {
+    visibility: hidden;
+    width: 120px;
+    background-color: rgba(85, 85, 85, 1);
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+
+    position: absolute;
+    z-index: 1;
+    bottom: -100%;
+    left: 50%;
+    margin-left: -60px;
+
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+}
+
+/* Regular body text */
 body {
     max-width: 75ch;
     width: 90%;
@@ -14,19 +68,7 @@ body {
     line-height: calc(1.3rem * 1.42);
 }
 
-h1, h2, h3, b {
-    font-weight: 700;
-}
-
-
-h1 {
-    font-size: 0;
-    padding-top: calc(1rem + 1.2rem);
-}
-h1 span, h1 a {
-    font-size: 3rem;
-}
-
+/* Other stuff */
 a {
     text-decoration: none;
 }
@@ -49,7 +91,7 @@ nav ul {
     padding: 0;
 }
 
-/* light mode */
+/* Light mode :D */
 @media (prefers-color-scheme: light) {
     .element, .color-0 {
         color: black;
@@ -93,7 +135,7 @@ nav ul {
     }
 }
 
-/* dark mode */
+/* Dark mode (for the basement dwellers */
 @media (prefers-color-scheme: dark) {
     .element, .color-0 {
         color: white;
