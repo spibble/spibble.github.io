@@ -15,8 +15,17 @@
     font-weight: 300;
 }
 
+body {
+	margin: 0 2em 0 0;
+	overflow: scroll;
+}
+
 h1, h2, h3, b {
     font-weight: 700;
+}
+
+header {
+	margin: 0 0 1em 0;
 }
 
 /* Header (icon, title, etc.) */
@@ -85,7 +94,7 @@ body {
 .main {
 	border-radius: 0.75em;
 	overflow-x: hidden;
-	overflow-y: scroll;
+	margin-bottom: 3em;
 }
 
 .main p, .main h2, .main h3 {
