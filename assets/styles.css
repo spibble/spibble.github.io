@@ -18,6 +18,12 @@
 body {
 	margin: 0 2em 0 0;
 	overflow: scroll;
+
+	background-image: url('https://f2.toyhou.se/file/f2-toyhou-se/images/43662656_RGZNhxyd9ptK7hO.png?1738210775');
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 
 h1, h2, h3, b {
@@ -94,7 +100,11 @@ body {
 .main {
 	border-radius: 0.75em;
 	overflow-x: hidden;
-	margin-bottom: 3em;
+}
+
+footer {
+	color: white;
+	margin-bottom: 20em;
 }
 
 .main p, .main h2, .main h3 {
@@ -138,7 +148,7 @@ nav li {
     }
 
 	body {
-		background-color: #f5f5f5;`
+		background-color: #f5f5f5;
 	}
 
 	.main {
@@ -147,7 +157,7 @@ nav li {
 		background-color: white;
 	}
 
-    h1 {
+    header {
         background: linear-gradient(
             #f4d7ff,
             #5c509b
@@ -156,8 +166,12 @@ nav li {
         color: transparent;
         background-clip: text;
 
-		filter: drop-shadow(3.5px 3.5px rgba(10, 20, 100, 1)); 
+		filter: drop-shadow(3px 3px rgba(10, 20, 100, 1)); 
     }
+
+	footer {
+		filter: drop-shadow(1.5px 1.5px rgba(10, 20, 100, 1));
+	}
 
     a {
         color: #fe3e67;
@@ -204,8 +218,16 @@ nav li {
         color: rgba(85, 85, 85, 1);
     }
 
+	body {
+		background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://f2.toyhou.se/file/f2-toyhou-se/images/43662656_RGZNhxyd9ptK7hO.png?1738210775');
+		background-size: cover;
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+	}	
+
 	.main {
-		background-color: rgba(255, 255, 255, 0.05);
+		background-color: #2b2b2b;
 	}
     
     h1 {
