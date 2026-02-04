@@ -228,6 +228,7 @@ nav li {
 
 	.main {
 		background-color: #2b2b2b;
+		box-shadow: 0 0 10px rgba(10, 20, 50, 0.35); 
 	}
     
     h1 {
@@ -255,8 +256,9 @@ nav li {
     }
 
     nav {
-		background: linear-gradient(to bottom, #4e6653, #2c4431); 
+		background: linear-gradient(to bottom, #5f8863, #3d5531); 
         background-color: #2c4431;
+		box-shadow: 0 5px 10px rgba(10, 20, 50, 0.35);
     }
 
 	nav a {
