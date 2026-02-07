@@ -9,10 +9,12 @@
     font-style: normal;
 }
 
+/* TODO: implement ok text scaling for mobile devices */
 :root {
     color-scheme: light dark;
     font-family: 'Firava', sans-serif;
     font-weight: 300;
+	text-size-adjust: none;
 }
 
 body {
