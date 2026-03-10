@@ -92,8 +92,8 @@ h2, h3 {
 
 /* Regular body text */
 body {
-    max-width: 70ch;
-    width: 90%;
+    max-width: 76.7ch;
+    width: 96.7%;
     margin: 0 auto;
     font-size: 1.3rem;
     line-height: calc(1.3rem * 1.42);
